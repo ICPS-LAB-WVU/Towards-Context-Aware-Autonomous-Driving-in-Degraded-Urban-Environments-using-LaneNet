@@ -1,0 +1,6 @@
+# Install a CUDA-compatible torch/torchvision separately if GPU acceleration is needed.
+ultralytics
+opencv-python
+numpy
+Pillow
+PyYAML

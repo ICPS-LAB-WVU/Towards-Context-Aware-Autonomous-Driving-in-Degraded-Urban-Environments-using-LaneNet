@@ -1,0 +1,43 @@
+# Training configuration for the upstream ICPS-LAB-WVU/Duckietown-Lane-Segmentation project.
+# Interpret dataset.root relative to the upstream training repository root.
+seed: 42
+experiment_name: lanenet_focal_dice_640
+output_root: outputs
+dataset:
+  root: datasets
+  image_dirname: trainTRACKimg
+  mask_dirname: trainTRACKmask
+  val_fraction: 0.1
+  split_seed: 42
+  num_workers: 2
+  pin_memory: true
+input:
+  image_size: [640, 640]
+train:
+  batch_size: 4
+  epochs: 100
+  optimizer: adamw
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 20
+  early_stopping_min_delta: 0.0
+  amp: false
+  loss_name: focal_dice
+  use_class_weights: true
+  focal_gamma: 2.0
+  focal_weight: 0.5
+  dice_weight: 0.5
+  ce_weight: 0.5
+metrics:
+  lane_class_ids: [1, 2, 3]
+  boundary_tolerance: 2
+logging:
+  use_wandb: false
+  project: iCPS Segmentation Duckietown
+  entity: null
+  group: LaneNet
+  run_name: null
+profiling:
+  enabled: false
+  fps_runs: 30
+  fps_warmup: 5

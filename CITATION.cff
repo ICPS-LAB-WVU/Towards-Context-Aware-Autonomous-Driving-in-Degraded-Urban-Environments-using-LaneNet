@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the code, please cite the 2026 IEEE Smart Mobility paper."
+title: "Towards Context-Aware Autonomous Driving in Degraded Urban Environments using LaneNet"
+type: conference-paper
+authors:
+  - family-names: Al Islam
+    given-names: Maher
+  - family-names: El-Wakeel
+    given-names: Amr S.
+year: 2026

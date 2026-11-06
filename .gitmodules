@@ -1,0 +1,3 @@
+[submodule "training/lane-segmentation"]
+	path = training/lane-segmentation
+	url = https://github.com/ICPS-LAB-WVU/Duckietown-Lane-Segmentation.git

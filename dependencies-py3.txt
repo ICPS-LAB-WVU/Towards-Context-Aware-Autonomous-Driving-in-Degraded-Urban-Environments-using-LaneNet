@@ -1,0 +1,1 @@
+# Cloud inference is on the workstation; ROS packages come from Duckietown.
