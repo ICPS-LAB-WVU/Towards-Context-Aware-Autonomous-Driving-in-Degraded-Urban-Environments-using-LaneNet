@@ -5,6 +5,7 @@ This repository contains the **perception–control implementation** for the acc
 > **Towards Context-Aware Autonomous Driving in Degraded Urban Environments using LaneNet**  
 > **Maher Al Islam and Amr S. El-Wakeel**  
 > *2026 IEEE International Conference on Smart Mobility (SM)*, 2026.
+> https://ieeexplore.ieee.org/document/11614147
 
 ## Overview
 
@@ -179,6 +180,9 @@ If you use the framework or refer to the results, please cite:
 No DOI is listed here until it can be verified for this particular paper.
 
 ## Authors and acknowledgment
+> **Towards Context-Aware Autonomous Driving in Degraded Urban Environments using LaneNet**   
+> *2026 IEEE International Conference on Smart Mobility (SM)*, 2026.
+> https://ieeexplore.ieee.org/document/11614147
 
 **Maher Al Islam** and **Amr S. El-Wakeel**  
 Lane Department of Computer Science and Electrical Engineering, West Virginia University.
